@@ -2,6 +2,7 @@ import './App.css'
 import Nav from './Component/Nav'
 import Trends from './Component/Trends'
 import Reasons from './Component/Reasons'
+import Questions from './Component/Questions'
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
        <Nav/>
        <Trends/>
        <Reasons/>
+       <Questions/>
    </div>
     </>
   )

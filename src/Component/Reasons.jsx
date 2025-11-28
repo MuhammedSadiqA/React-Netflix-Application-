@@ -35,7 +35,7 @@ function Reasons() {
 
     return (
         <div>
-            <div className=' h-screen'>
+            <div className='my-5'>
                 <div className='font-bold text-2xl mt-6 md:mt-15'>
                     More Reasons to join
                 </div>
