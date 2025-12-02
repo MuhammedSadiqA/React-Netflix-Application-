@@ -3,6 +3,8 @@ import Nav from './Component/Nav'
 import Trends from './Component/Trends'
 import Reasons from './Component/Reasons'
 import Questions from './Component/Questions'
+import Subscription from './Component/Subscription'
+
 
 function App() {
 
@@ -13,6 +15,7 @@ function App() {
        <Trends/>
        <Reasons/>
        <Questions/>
+       <Subscription/>
    </div>
     </>
   )

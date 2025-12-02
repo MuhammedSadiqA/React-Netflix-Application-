@@ -6,16 +6,15 @@ import { HiMiniLanguage } from "react-icons/hi2";
 function Nav() {
     return (
         <>
-            <div className='netflix px-40 h-screen py-5 bg-black text-white  z-10 '>
+            <div className='netflix md:px-40 h-screen py-5 bg-black text-white   '>
                 <div className='absolute   inset-0 bg-cover bg-center opacity-25' style={{ backgroundImage: `url(${bgimg})` }}>
-
                 </div>
                 <div className='relative'>
-                    <div className=' flex justify-between items-center w-full'>
+                    <div className=' md:flex md:justify-between md:items-center md:w-full'>
                         <div className='text-5xl  font-bold text-red-600 '>
                             Netflix
                         </div>
-                        <div className='flex mr-2'>
+                        <div className='md:flex md:mr-2'>
                             <div className='me-3 font-medium px-5 hover:border-white py-1 border border-gray-500 rounded flex' >
                                 <HiMiniLanguage />
                                 <select name="" id="">
