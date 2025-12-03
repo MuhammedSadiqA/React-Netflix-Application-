@@ -3,7 +3,7 @@ import Nav from './Component/Nav'
 import Trends from './Component/Trends'
 import Reasons from './Component/Reasons'
 import Questions from './Component/Questions'
-import Subscription from './Component/Subscription'
+import Footer from './Component/Footer'
 
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
        <Trends/>
        <Reasons/>
        <Questions/>
-       <Subscription/>
+       <Footer/>
    </div>
     </>
   )
